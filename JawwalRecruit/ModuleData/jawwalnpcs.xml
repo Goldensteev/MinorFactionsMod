@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+  <NPCCharacter id="rural_notable_notary_jawwal"
+                default_group="Infantry"
+                name="{=AlmaRAib}RuralNotableNotary"
+                battleTemplate="NPCCharacter.npc_wanderer_equipment_template_aserai"
+                occupation="Townsfolk"
+                culture="Culture.jawwal"
+                skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_aserai" />
+    </face>
+    <skills></skills>
+    <equipmentSet civilian="true">
+      <equipment slot="Head"
+                 id="Item.aserai_civil_d_hscarf" />
+      <equipment slot="Body"
+                 id="Item.aserai_civil_d" />
+      <equipment slot="Leg"
+                 id="Item.khuzait_curved_boots" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.peasant_hatchet_1_t1" />
+      <equipment slot="Head"
+                 id="Item.aserai_civil_c_head" />
+      <equipment slot="Cape"
+                 id="Item.wrapped_scarf" />
+      <equipment slot="Body"
+                 id="Item.aserai_civil_c" />
+      <equipment slot="Leg"
+                 id="Item.khuzait_curved_boots" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.aserai_civil_b" />
+      <equipment slot="Head"
+                 id="Item.aserai_civil_hscarf_b" />
+      <equipment slot="Leg"
+                 id="Item.khuzait_curved_boots" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.aserai_civil_a" />
+      <equipment slot="Head"
+                 id="Item.aserai_civil_e_hscarf" />
+      <equipment slot="Leg"
+                 id="Item.khuzait_curved_boots" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.aserai_civil_f" />
+      <equipment slot="Head"
+                 id="Item.aserai_civil_e_hscarf" />
+      <equipment slot="Leg"
+                 id="Item.khuzait_curved_boots" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.aserai_civil_e" />
+      <equipment slot="Head"
+                 id="Item.desert_cap" />
+      <equipment slot="Cape"
+                 id="Item.wrapped_scarf" />
+      <equipment slot="Leg"
+                 id="Item.khuzait_curved_boots" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Head"
+                 id="Item.aserai_civil_hscarf_b" />
+      <equipment slot="Body"
+                 id="Item.aserai_archer_armor" />
+      <equipment slot="Leg"
+                 id="Item.khuzait_curved_boots" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.layered_robe" />
+      <equipment slot="Head"
+                 id="Item.tied_head_wrapping" />
+      <equipment slot="Leg"
+                 id="Item.khuzait_curved_boots" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Head"
+                 id="Item.turban" />
+      <equipment slot="Cape"
+                 id="Item.wrapped_scarf" />
+      <equipment slot="Body"
+                 id="Item.tassled_southern_robes" />
+      <equipment slot="Leg"
+                 id="Item.khuzait_curved_boots" />
+    </equipmentSet>
+  </NPCCharacter>
+  <NPCCharacter id="preacher_notary_jawwal"
+                default_group="Infantry"
+                name="{=bLMGbLF8}PreacherNotary"
+                battleTemplate="NPCCharacter.npc_wanderer_equipment_template_aserai"
+                occupation="Townsfolk"
+                culture="Culture.jawwal"
+                skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="NPCCharacter.villager_aserai" />
+    </face>
+    <skills></skills>
+    <equipmentSet civilian="true">
+      <equipment slot="Head"
+                 id="Item.aserai_civil_d_hscarf" />
+      <equipment slot="Body"
+                 id="Item.aserai_civil_d" />
+      <equipment slot="Leg"
+                 id="Item.khuzait_curved_boots" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0"
+                 id="Item.peasant_sickle_1_t1" />
+      <equipment slot="Head"
+                 id="Item.aserai_civil_c_head" />
+      <equipment slot="Cape"
+                 id="Item.wrapped_scarf" />
+      <equipment slot="Body"
+                 id="Item.aserai_civil_c" />
+      <equipment slot="Leg"
+                 id="Item.khuzait_curved_boots" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.aserai_civil_b" />
+      <equipment slot="Head"
+                 id="Item.aserai_civil_hscarf_b" />
+      <equipment slot="Leg"
+                 id="Item.khuzait_curved_boots" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.aserai_civil_a" />
+      <equipment slot="Head"
+                 id="Item.aserai_civil_e_hscarf" />
+      <equipment slot="Leg"
+                 id="Item.khuzait_curved_boots" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.aserai_civil_f" />
+      <equipment slot="Head"
+                 id="Item.aserai_civil_e_hscarf" />
+      <equipment slot="Leg"
+                 id="Item.khuzait_curved_boots" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.aserai_civil_e" />
+      <equipment slot="Head"
+                 id="Item.desert_cap" />
+      <equipment slot="Cape"
+                 id="Item.wrapped_scarf" />
+      <equipment slot="Leg"
+                 id="Item.khuzait_curved_boots" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Head"
+                 id="Item.aserai_civil_hscarf_b" />
+      <equipment slot="Body"
+                 id="Item.aserai_archer_armor" />
+      <equipment slot="Leg"
+                 id="Item.khuzait_curved_boots" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.layered_robe" />
+      <equipment slot="Head"
+                 id="Item.tied_head_wrapping" />
+      <equipment slot="Leg"
+                 id="Item.khuzait_curved_boots" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Head"
+                 id="Item.turban" />
+      <equipment slot="Cape"
+                 id="Item.wrapped_scarf" />
+      <equipment slot="Body"
+                 id="Item.tassled_southern_robes" />
+      <equipment slot="Leg"
+                 id="Item.khuzait_curved_boots" />
+    </equipmentSet>
+  </NPCCharacter>
+</NPCCharacters>

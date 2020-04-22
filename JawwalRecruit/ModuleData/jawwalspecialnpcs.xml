@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+  <NPCCharacter id="spc_notable_aserai_11" name="{=XSI7xub4}Aserai earnest umda rural notable" voice="earnest" is_template="true" default_group="Infantry" culture="Culture.jawwal" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_aserai" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_aserai" occupation="RuralNotable">
+    <face>
+      <face_key_template value="NPCCharacter.villager_aserai" />
+    </face>
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="ArabianHair" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_aserai_12" name="{=LuGD2OL1}Aserai quiet umda rural notable" voice="softspoken" is_template="true" default_group="Infantry" culture="Culture.jawwal" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_aserai" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_aserai" occupation="RuralNotable">
+    <face>
+      <face_key_template value="NPCCharacter.villager_aserai" />
+    </face>
+    <!--<Hero id="spc_notable_aserai_12" faction="Kingdom.aserai" />-->
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="ArabianHair" value="1" />
+      <Trait id="Honor" value="1" />
+    </Traits>
+  </NPCCharacter>
+</NPCCharacters>
