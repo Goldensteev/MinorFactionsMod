@@ -1,0 +1,33 @@
+﻿<Module>
+  <Name value="Jawwal Recruits in Adda"/>
+  <Id value="JawwalRecruit"/>
+  <Version value="e1.2.0"/>
+  <SingleplayerModule value="true"/>
+  <MultiplayerModule value="false"/>
+  <DependedModules>
+    <DependedModule Id="Native" />
+    <DependedModule Id="SandBoxCore" />
+    <DependedModule Id="Sandbox" />
+    <DependedModule Id="StoryMode" />
+  </DependedModules>
+  <SubModules>
+  </SubModules>
+  <Xmls>
+    <XmlNode>
+      <XmlName id="SPCultures" path="spjawwalculture"/>
+      <IncludedGameTypes>
+        <GameType value = "Campaign"/>
+        <GameType value = "CampaignStoryMode"/>
+        <GameType value = "CustomGame"/>
+      </IncludedGameTypes>
+    </XmlNode>
+	<XmlNode>
+      <XmlName id="Settlements" path="jawwaltown"/>
+      <IncludedGameTypes>
+        <GameType value = "Campaign"/>
+        <GameType value = "CampaignStoryMode"/>
+        <GameType value = "CustomGame"/>
+      </IncludedGameTypes>
+    </XmlNode>
+  </Xmls>
+</Module>

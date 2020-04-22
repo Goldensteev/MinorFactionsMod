@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settlements>
+  <Settlement id="village_A3_1" name="{=Settlements.Settlement.name.village_A3_1}Abba" posX="474.865" posY="101.265" culture="Culture.jawwal" text="{=Settlements.Settlement.text.village_A3_1}Abba sits in a sheltered corner of of the Jejara Escarpment that catches the runoff the desert's rare but often violent rainstorms. The people support themselves from small gardens among the rocks, as well as the trees bearing fragrant resins and aromatic berries dried and ground for spice.">
+    <Components>
+      <Village id="village_comp_A3_1" village_type="VillageType.wheat_farm" hearth="282" trade_bound="Settlement.town_A3" bound="Settlement.town_A3" background_crop_position="0.214" background_mesh="menu_aserai_village_1" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="aserai_village_i" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+</Settlements>
