@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settlements>
+  <Settlement id="village_S2_2" name="{=Settlements.Settlement.name.village_S2_2}Marabrot" posX="453.523" posY="592.929" culture="Culture.lake" text="{=Settlements.Settlement.text.village_S2_2}Marabrot sits on a crossing over the Dvora river. The gentle hills of these wet, cold lowlands support the growing of flax.">
+    <Components>
+      <Village id="village_comp_S2_2" village_type="VillageType.flax_plant" hearth="322" gate_rotation="0.168" trade_bound="Settlement.town_S2" bound="Settlement.town_S2" background_crop_position="0.0" background_mesh="gui_bg_village_sturgia" wait_mesh="wait_sturgia_village" castle_background_mesh="gui_bg_castle_sturgia" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="sturgia_village_j" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+</Settlements>

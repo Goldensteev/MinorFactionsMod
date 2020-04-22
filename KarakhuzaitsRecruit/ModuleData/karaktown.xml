@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settlements>
+  <Settlement id="castle_village_K7_2" name="{=Settlements.Settlement.name.castle_village_K7_2}Kohi Ajik" posX="792.021" posY="367.172" culture="Culture.karak" text="{=Settlements.Settlement.text.village_K6_4}Kohi Ajik lies in a narrow, dry valley at the foot of the so-called Lover's Mountain, from which its name derives.">
+    <Components>
+      <Village id="castle_village_comp_K7_2" village_type="VillageType.steppe_horse_ranch" hearth="430" trade_bound="Settlement.castle_K7" bound="Settlement.castle_K7" background_crop_position="0.0" background_mesh="gui_bg_village_khuzait" wait_mesh="wait_khuzait_village" castle_background_mesh="gui_bg_castle_khuzait" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="khuzait_village_l" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+</Settlements>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settlements>
+  <Settlement id="village_EN2_2" name="{=Settlements.Settlement.name.village_EN2_2}Jeracos" posX="489.935" posY="459.728" culture="Culture.hand" text="{=Settlements.Settlement.text.village_EN2_2}Jeracos sits on a small peninsula that leans out into Lake Laconys. The climate, kept mild by the lake breezes, makes for good horse breeding.">
+    <Components>
+      <Village id="village_comp_EN2_2" village_type="VillageType.europe_horse_ranch" hearth="105" gate_rotation="0.008" trade_bound="Settlement.town_EN2" bound="Settlement.town_EN2" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="empire_village_008" max_prosperity="70" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+</Settlements>

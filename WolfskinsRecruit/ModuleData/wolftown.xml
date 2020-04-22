@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settlements>
+  <Settlement id="village_B3_3" name="{=Settlements.Settlement.name.village_B3_3}Tor Leiad" posX="240.285" posY="498.038" culture="Culture.wolf" text="{=Settlements.Settlement.text.village_B3_3}Tor Leiad sits in the upper reaches of the Seavorn valley, amid thick-growing forests of oak, yew and beech. The woods here have been tended carefully by the Battanians for centuries, ensuring that there are always enough trees to harvest and sell for timber.">
+    <Components>
+      <Village id="village_comp_B3_3" village_type="VillageType.lumberjack" hearth="147" trade_bound="Settlement.town_B3" bound="Settlement.town_B3" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_battania_village" castle_background_mesh="gui_bg_castle_battania" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="battania_village_l" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+</Settlements>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settlements>
+  <Settlement id="castle_village_A1_1" name="{=Settlements.Settlement.name.castle_village_A1_1}Tubilis" posX="251.632" posY="263.255" culture="Culture.ghil" text="{=Settlements.Settlement.text.castle_village_A1_1}Tubilis is a fishing village where the river that the Aserai call the Gabsa reaches the sea. Villagers sail out onto the calm waters of the gulf to seek tuna, sardines, and shark.">
+    <Components>
+      <Village id="castle_village_comp_A1_1" village_type="VillageType.fisherman" hearth="148" trade_bound="Settlement.castle_A1" bound="Settlement.castle_A1" background_crop_position="0.214" background_mesh="menu_aserai_village_1" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="aserai_village_i" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+</Settlements>

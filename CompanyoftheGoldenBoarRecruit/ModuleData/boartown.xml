@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settlements>
+  <Settlement id="castle_village_V5_1" name="{=Settlements.Settlement.name.castle_village_V5_1}Tirby" posX="161.077" posY="586.582" culture="Culture.boar" text="{=Settlements.Settlement.text.castle_village_V5_1}Tirby lies in the eastern slopes of Mount Ebor. The rapidly changing weather, fed by cross-winds from the western ocean and the northern Byalic Gulf, allow the growing of grapes and other southern crops.">
+    <Components>
+      <Village id="castle_village_comp_V5_1" village_type="VillageType.silver_mine" hearth="640" trade_bound="Settlement.castle_V5" bound="Settlement.castle_V5" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="vlandia_village_i" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+</Settlements>

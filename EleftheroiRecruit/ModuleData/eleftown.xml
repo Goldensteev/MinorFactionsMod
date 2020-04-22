@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settlements>
+  <Settlement id="castle_village_ES1_2" name="{=Settlements.Settlement.name.castle_village_ES1_2}Caira" posX="687.202" posY="276.935" culture="Culture.elef" text="{=Settlements.Settlement.text.village_ES1_1}Caira sits near the eastern shores of Lake Perasos. The region, close to both the steppe and the southern deserts, is warm enough to grow olives.">
+    <Components>
+      <Village id="castle_village_ES1_2" village_type="VillageType.wheat_farm" hearth="304" gate_rotation="0.008" trade_bound="Settlement.castle_ES1" bound="Settlement.castle_ES1" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="empire_village_003" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+</Settlements>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settlements>
+  <Settlement id="village_V5_3" name="{=Settlements.Settlement.name.village_V5_3}Nogrent" posX="100.203" posY="423.756" culture="Culture.wood" text="{=Settlements.Settlement.text.village_V5_3}Nogrent sits in a nook of the Biscan hills in central Vlandia. The region, with its mild winters, is prime land for the growing of olives.">
+    <Components>
+      <Village id="village_comp_V5_3" village_type="VillageType.olive_trees" hearth="211" trade_bound="Settlement.town_V5" bound="Settlement.town_V5" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="vlandia_village_k" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+</Settlements>

@@ -1,0 +1,33 @@
+﻿<Module>
+  <Name value="Company of the Golden Boar Recruits in Tirby"/>
+  <Id value="CompanyoftheGoldenBoarRecruit"/>
+  <Version value="e1.2.0"/>
+  <SingleplayerModule value="true"/>
+  <MultiplayerModule value="false"/>
+  <DependedModules>
+    <DependedModule Id="Native" />
+    <DependedModule Id="SandBoxCore" />
+    <DependedModule Id="Sandbox" />
+    <DependedModule Id="StoryMode" />
+  </DependedModules>
+  <SubModules>
+  </SubModules>
+  <Xmls>
+    <XmlNode>
+      <XmlName id="SPCultures" path="spboarculture"/>
+      <IncludedGameTypes>
+        <GameType value = "Campaign"/>
+        <GameType value = "CampaignStoryMode"/>
+        <GameType value = "CustomGame"/>
+      </IncludedGameTypes>
+    </XmlNode>
+	<XmlNode>
+      <XmlName id="Settlements" path="boartown"/>
+      <IncludedGameTypes>
+        <GameType value = "Campaign"/>
+        <GameType value = "CampaignStoryMode"/>
+        <GameType value = "CustomGame"/>
+      </IncludedGameTypes>
+    </XmlNode>
+  </Xmls>
+</Module>

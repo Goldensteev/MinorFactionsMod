@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settlements>
+  <Settlement id="village_EW4_3" name="{=Settlements.Settlement.name.village_EW4_3}Vinela" posX="340.289" posY="324.207" culture="Culture.legion" text="{=Settlements.Settlement.text.village_EW4_3}Vinela sits on the northern shores of Lake Perasos. The lake is now freshwater, but long ago the basin has cut off from the sea, and ample salt deposits can be found along its shores.">
+    <Components>
+      <Village id="village_comp_EW4_3" village_type="VillageType.salt_mine" hearth="295" trade_bound="Settlement.town_EW4" bound="Settlement.town_EW4" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="empire_village_x" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+</Settlements>

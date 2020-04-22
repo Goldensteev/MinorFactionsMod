@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settlements>
+  <Settlement id="village_A2_3" name="{=Settlements.Settlement.name.village_A2_3}Hoqqa" posX="725.889" posY="249.251" culture="Culture.benizilal" text="{=Settlements.Settlement.text.village_A2_3}Hoqqa and its neighbor Lamesa lie inland of the Jebal Tamar hills, in one of the last pockets of oasis agriculture before the barren wastes of the Nahasa. The villagers raise horses, grazing them in the grass that grows briefly after the spring rains, supplemented for the rest of the year by a mash of grain and dates.">
+    <Components>
+      <Village id="village_comp_A2_3" village_type="VillageType.desert_horse_ranch" hearth="243" trade_bound="Settlement.town_A2" bound="Settlement.town_A2" background_crop_position="0.145" background_mesh="menu_aserai_village_2" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="aserai_village_e" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+</Settlements>
