@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
-  <NPCCharacter id="spc_notable_aserai_11" name="{=XSI7xub4}Aserai earnest umda rural notable" voice="earnest" is_template="true" default_group="Infantry" culture="Culture.benizilal" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_aserai" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_aserai" occupation="RuralNotable">
+  <NPCCharacter id="spc_notable_aserai_13" name="{=XSI7xub4}Aserai earnest umda rural notable" voice="earnest" is_template="true" default_group="Infantry" culture="Culture.benizilal" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_aserai" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_aserai" occupation="RuralNotable">
     <face>
       <face_key_template value="NPCCharacter.villager_aserai" />
     </face>
@@ -10,7 +10,7 @@
       <Trait id="Calculating" value="1" />
     </Traits>
   </NPCCharacter>
-  <NPCCharacter id="spc_notable_aserai_12" name="{=LuGD2OL1}Aserai quiet umda rural notable" voice="softspoken" is_template="true" default_group="Infantry" culture="Culture.benizilal" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_aserai" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_aserai" occupation="RuralNotable">
+  <NPCCharacter id="spc_notable_aserai_14" name="{=LuGD2OL1}Aserai quiet umda rural notable" voice="softspoken" is_template="true" default_group="Infantry" culture="Culture.benizilal" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_aserai" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_aserai" occupation="RuralNotable">
     <face>
       <face_key_template value="NPCCharacter.villager_aserai" />
     </face>
@@ -21,7 +21,7 @@
       <Trait id="Honor" value="1" />
     </Traits>
   </NPCCharacter>
-  <NPCCharacter id="spc_aserai_headman_1" name="{=066F7lnW}Aserai rebellious headman" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.benizilal" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_aserai" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_aserai" occupation="Headman">
+  <NPCCharacter id="spc_aserai_headman_4" name="{=066F7lnW}Aserai rebellious headman" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.benizilal" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_aserai" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_aserai" occupation="Headman">
     <face>
       <face_key_template value="NPCCharacter.villager_aserai" />
     </face>
@@ -33,7 +33,7 @@
       <Trait id="Calculating" value="-1" />
     </Traits>
   </NPCCharacter>
-  <NPCCharacter id="spc_aserai_headman_2" name="{=14GLp866}Aserai conservative headman" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.benizilal" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_aserai" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_aserai" occupation="Headman">
+  <NPCCharacter id="spc_aserai_headman_5" name="{=14GLp866}Aserai conservative headman" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.benizilal" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_aserai" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_aserai" occupation="Headman">
     <face>
       <face_key_template value="NPCCharacter.villager_aserai" />
     </face>
@@ -45,7 +45,7 @@
       <Trait id="Generosity" value="1" />
     </Traits>
   </NPCCharacter>
-  <NPCCharacter id="spc_aserai_headman_3" name="{=JVeGkRa1}Aserai devious headman" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.benizilal" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_aserai" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_aserai" occupation="Headman">
+  <NPCCharacter id="spc_aserai_headman_6" name="{=JVeGkRa1}Aserai devious headman" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.benizilal" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_aserai" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_aserai" occupation="Headman">
     <face>
       <face_key_template value="NPCCharacter.villager_aserai" />
     </face>
