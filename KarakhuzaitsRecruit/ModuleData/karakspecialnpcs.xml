@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+  <NPCCharacter id="spc_khuzait_rural_notable_1" name="{=TbWwahrd}Khuzait craft rural notable" is_template="true" voice="ironic" default_group="Infantry" is_hero="false" culture="Culture.karak" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_khuzait" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_khuzait" occupation="RuralNotable">
+    <face>
+      <face_key_template value="NPCCharacter.villager_khuzait" />
+    </face>
+    <!--<Hero id="spc_khuzait_rural_notable_1" faction="Kingdom.khuzait" />-->
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <NPCCharacter id="spc_khuzait_rural_notable_2" name="{=LzLkTQc8}Khuzait proud rural notable" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.karak" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_khuzait" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_khuzait" occupation="RuralNotable">
+    <face>
+      <face_key_template value="NPCCharacter.villager_khuzait" />
+    </face>
+    <!--<Hero id="spc_khuzait_rural_notable_2" faction="Kingdom.khuzait" />-->
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="-1" />
+    </Traits>
+  </NPCCharacter>
+</NPCCharacters>
