@@ -21,4 +21,40 @@
       <Trait id="Honor" value="1" />
     </Traits>
   </NPCCharacter>
+  <NPCCharacter id="spc_aserai_headman_1" name="{=066F7lnW}Aserai rebellious headman" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.jawwal" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_aserai" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_aserai" occupation="Headman">
+    <face>
+      <face_key_template value="NPCCharacter.villager_aserai" />
+    </face>
+    <!--<Hero id="spc_notable_aserai_4" faction="Kingdom.aserai" />-->
+    <skills></skills>
+    <Traits>
+      <Trait id="ArabianHair" value="1" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="-1" />
+    </Traits>
+  </NPCCharacter>
+  <NPCCharacter id="spc_aserai_headman_2" name="{=14GLp866}Aserai conservative headman" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.jawwal" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_aserai" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_aserai" occupation="Headman">
+    <face>
+      <face_key_template value="NPCCharacter.villager_aserai" />
+    </face>
+    <!--<Hero id="spc_notable_aserai_4" faction="Kingdom.aserai" />-->
+    <skills></skills>
+    <Traits>
+      <Trait id="ArabianHair" value="1" />
+      <Trait id="Valor" value="-1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <NPCCharacter id="spc_aserai_headman_3" name="{=JVeGkRa1}Aserai devious headman" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.jawwal" battleTemplate="NPCCharacter.npc_armed_wanderer_equipment_template_aserai" civilianTemplate="NPCCharacter.npc_wanderer_equipment_template_aserai" occupation="Headman">
+    <face>
+      <face_key_template value="NPCCharacter.villager_aserai" />
+    </face>
+    <!--<Hero id="spc_notable_aserai_4" faction="Kingdom.aserai" />-->
+    <skills></skills>
+    <Traits>
+      <Trait id="ArabianHair" value="1" />
+      <Trait id="Calculating" value="1" />
+      <Trait id="Honor" value="-1" />
+    </Traits>
+  </NPCCharacter>
 </NPCCharacters>
