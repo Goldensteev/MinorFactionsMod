@@ -14,7 +14,7 @@
   </SubModules>
   <Xmls>
     <XmlNode>
-      <XmlName id="SPCultures" path="spghilsculture"/>
+      <XmlName id="SPCultures" path="spghilculture"/>
       <IncludedGameTypes>
         <GameType value = "Campaign"/>
         <GameType value = "CampaignStoryMode"/>
@@ -23,6 +23,14 @@
     </XmlNode>
 	<XmlNode>
       <XmlName id="Settlements" path="ghiltown"/>
+      <IncludedGameTypes>
+        <GameType value = "Campaign"/>
+        <GameType value = "CampaignStoryMode"/>
+        <GameType value = "CustomGame"/>
+      </IncludedGameTypes>
+    </XmlNode>
+  <XmlNode>
+      <XmlName id="NPCCharacters" path="ghilspecialnpcs"/>
       <IncludedGameTypes>
         <GameType value = "Campaign"/>
         <GameType value = "CampaignStoryMode"/>
